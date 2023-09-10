@@ -1,1 +1,1 @@
-# 招待 for Charlie
+# 招待
