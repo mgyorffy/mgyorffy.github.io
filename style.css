@@ -1,7 +1,6 @@
 html, body {
 	margin: 0;
 	font-family: "Helvetica", sans-serif;
-	color: #333;
 }
 
 .logo {
@@ -16,12 +15,17 @@ h1, h2, h3 {
 	font-family: "Fantasy", fantasy;
 }
 
+h2 {
+	margin: 35px 0 0 0;
+}
+
 header, footer {
 	position: sticky;
-	background-color: #00539E;
 	color: #fff;
 	display: flex;
 	padding: 30px;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 67%, rgba(0,188,237,1) 100%, rgba(0,83,158,1) 100%);
 }
 
 header {
@@ -53,26 +57,23 @@ nav {
 
 .nav-item {
 	width: 115px;
+	text-align: center;
 }
 
 .content {
-	padding: 20px 50px;
-}
-
-h2 {
-	margin-top: 50px;
+	padding: 0 50px 20px 50px;
 }
 
 .card-container {
 	display: flex;
+	flex-direction: row;
 	flex-wrap: wrap;
-	column-gap: 10px;
+	gap: 10px;
 	align-content: flex-start;
-	justify-content: flex-start;
 }
 
 .card {
-	flex: 1 1 390px;
+	flex-basis: 32%;
 }
 
 q {
